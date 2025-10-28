@@ -1,0 +1,284 @@
+🔍 Reasoning Phase:
+FACTS:
+- The following are the laws of refraction of light:
+- (i) The incident ray, the refracted ray and the normal to the interface of two transparent media at the point of incidence, all lie in the same plane.
+- (ii) The ratio of sine of angle of incidence to the sine of angle of refraction is a constant, for the light of a given colour and for the given pair of media.
+- This law is also known as Snell’s law of refraction.
+- If i is the angle of incidence and r is the angle of refraction, then, sin i / sin r = constant (9.4)
+- This constant value is called the refractive index of the second medium with respect to the first.
+- The extent of the change in direction that takes place in a given pair of media may be expressed in terms of the refractive index, the “constant” appearing on the right-hand side of Eq.(9.4).
+- Consider a ray of light travelling from medium 1 into medium 2. Let v1 be the speed of light in medium 1 and v2 be the speed of light in medium 2. The refractive index of medium 2 with respect to medium 1 is given by the ratio of the speed of light in medium 1 and the speed of light in medium 2.
+
+GLOSSARY:
+- i = angle of incidence
+- r = angle of refraction
+- v1 = speed of light in medium 1
+- v2 = speed of light in medium 2
+
+ENTITIES:
+- The incident ray, the refracted ray and the normal to the interface of two transparent media at the point of incidence, all lie in the same plane.
+- sin i / sin r = constant, also known as Snell’s law of refraction.
+
+JUSTIFICATION: The laws of refraction include the coplanarity of the incident ray, refracted ray, and normal, and Snell's law, which states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant.
+================================================================================
+✅ Final Answer:
+The laws of refraction describe how light bends when it passes from one medium to another:
+
+1.  The incident ray, the refracted ray, and the normal to the interface of the two transparent media at the point of incidence all lie in the same plane.
+
+2.  Snell’s Law: The ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant for a given color of light and pair of media. Mathematically, this is expressed as $\frac{\sin i}{\sin r} = \text{constant}$, where $i$ is the angle of incidence, and $r$ is the angle of refraction. This constant value is the refractive index of the second medium with respect to the first.
+
+**Additional Points:**
+
+*   The refractive index of medium 2 with respect to medium 1 is also given by the ratio of the speed of light in medium 1 ($v_1$) to the speed of light in medium 2 ($v_2$).
+*   The extent of bending depends on the refractive index of the two media; a larger refractive index means more bending.
+================================================================================
+
+🔍 Supporting Chunks:
+------------------------------------------------------------
+🆔 a54f53dde5a341f8948d49d7a60954a7 | 📄 Page: 15
+Science
+148
+The following are the laws of refraction of light.
+ 
+
+(i)
+The incident ray, the refracted ray and the normal to the interface
+of two transparent media at the point of incidence, all lie in the
+same plane.
+
+
+(ii)
+
+
+The ratio of sine of angle of incidence to the sine of angle of
+refraction is a constant, for the light of a given colour and for
+the given pair of media.
+
+This law is also known as Snell’s law of
+refraction.
+
+(This is true for angle 0 <
+
+i < 90o)
+
+
+If i is the angle of incidence and r is the angle of refraction, then,
+sin
+sin
+i
+r  = constant
+(9.4)
+
+
+This constant value is called the refractive index of the second medium
+with respect to the first.  
+
+Let us study about refractive index in some detail.
+
+
+9.3.2
+
+The Refractive Index
+You have already studied that a ray of light that travels obliquely from
+one transparent medium into another will change its direction in the
+second medium.
+
+The extent of the change in direction that takes place
+in a given pair of media may be expressed in terms of the refractive index,
+the “constant” appearing on the right-hand side of Eq.(9.4).
+
+
+The refractive index can be linked to an important physical quantity,
+the relative speed of propagation of light in different media.
+
+It turns
+out that light propagates with different speeds in different media.
+
+Light
+travels fastest in vacuum with speed of 3×108 m s–1.  
+
+In air, the speed of
+light is only marginally less, compared to that in vacuum.
+
+It reduces
+considerably in glass or water.
+
+The value of the refractive index for a
+given pair of media depends upon the speed of light in the two media, as
+given below.
+
+
+Consider a ray of light travelling from medium 1 into medium 2, as
+shown in Fig.9.11.  
+
+Let v1 be the speed of light in medium 1 and v2 be the
+speed of light in medium 2.  
+
+The refractive index of medium 2 with respect
+to medium 1 is given by the ratio of the speed of light in medium 1 and
+the speed of light in medium 2.
+------------------------------------------------------------
+🆔 269c88fab73345169d18b481dbe44a39 | 📄 Page: 14
+Experiments show that refraction of light occurs according to
+certain laws.
+
+
+Activity 9.10
+Activity 9.10
+Activity 9.10
+Activity 9.10
+Activity 9.10
+n
+Fix a sheet of white paper on a drawing board using drawing pins.
+n
+Place a rectangular glass slab over the sheet in the middle.
+n
+Draw the outline of the slab with a pencil.
+
+Let us name the outline
+as ABCD.
+
+
+n
+Take four identical pins.
+
+
+n
+Fix two pins
+
+, say E and F, vertically such that the line joining the
+pins is inclined to the edge AB.
+
+
+n
+Look for the images of the pins E and F through the opposite edge.
+
+
+Fix two other pins, say G and H, such that these pins and the
+images of E and F lie on a straight line.
+
+
+n
+Remove the pins and the slab.
+
+
+n
+Join the positions of tip of the pins E and F and produce the line
+up to AB.
+
+Let EF meet AB at O.  Similarly, join the positions of tip
+of the pins G and H and produce it up to the edge CD.  
+
+Let HG
+meet CD at O′.
+n
+Join O and O′.  Also produce EF up to P, as shown by a dotted line
+in Fig.
+
+9.10.
+
+
+Figure 9.10
+Figure 9.10
+Figure 9.10
+Figure 9.10
+Figure 9.10
+Refraction of light through a rectangular glass slab
+Reprint 2025-26
+------------------------------------------------------------
+🆔 de07b315a15641daa3c12f78e6b254f0 | 📄 Page: 14
+Light – Reflection and Refraction
+147
+In this Activity, you will note, the light ray has changed its direction
+at points O and O′. Note that both the points O and O′ lie on surfaces
+separating two transparent media.
+
+Draw a perpendicular NN’ to AB at O
+and another perpendicular MM′ to CD at O′.
+
+The light ray at point O has
+entered from a rarer medium to a denser medium, that is, from air to
+glass.
+
+Note that the light ray has bent towards
+the normal.
+
+At O′, the light ray has entered
+from glass to air, that is, from a denser
+medium to a rarer medium.  
+
+The light here
+has bent away from the normal.
+
+Compare the
+angle of incidence with the angle of refraction
+at both refracting surfaces AB and CD.
+
+
+In Fig. 9.10, a ray EO is obliquely
+incident on surface AB, called incident ray.
+
+
+OO′ is the refracted ray and O′ H is the
+emergent ray.
+
+You may observe that the
+emergent ray is parallel to the direction of
+the incident ray.
+
+Why does it happen so?
+
+The
+extent of bending of the ray of light at the
+opposite parallel faces AB (air-glass interface)
+and CD (glass-air interface) of the rectangular
+glass slab is equal and opposite.
+
+This is why
+the ray emerges parallel to the incident ray.
+
+
+However, the light ray is shifted sideward
+slightly.
+
+What happens when a light ray is
+incident normally to the interface of two
+media?
+
+Try and find out.
+
+
+Now you are familiar with the refraction of light.
+
+Refraction is due to
+change in the speed of light as it enters from one transparent medium to
+another.  
+
+Experiments show that refraction of light occurs according to
+certain laws.
+
+
+Activity 9.10
+Activity 9.10
+Activity 9.10
+Activity 9.10
+Activity 9.10
+n
+Fix a sheet of white paper on a drawing board using drawing pins.
+n
+Place a rectangular glass slab over the sheet in the middle.
+n
+Draw the outline of the slab with a pencil.
+
+Let us name the outline
+as ABCD.
+
+
+n
+Take four identical pins.
+
+
+n
+Fix two pins
+------------------------------------------------------------

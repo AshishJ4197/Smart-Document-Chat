@@ -1,0 +1,415 @@
+{
+  "s1": {
+    "sid": "s1",
+    "sentence": "Science 148 The following are the laws of refraction of light .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s2": {
+    "sid": "s2",
+    "sentence": "( i ) The incident ray , the refracted ray and the normal to the interface of two transparent media at the point of incidence , all lie in the same plane .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s3": {
+    "sid": "s3",
+    "sentence": "( ii ) The ratio of sine of angle of incidence to the sine of angle of refraction is a constant , for the light of a given colour and for the given pair of media .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s4": {
+    "sid": "s4",
+    "sentence": "This law is also known as Snell ’s law of refraction .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s5": {
+    "sid": "s5",
+    "sentence": "( This is true for angle 0 < i < 90o )",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s6": {
+    "sid": "s6",
+    "sentence": "If i is the angle of incidence and r is the angle of refraction , then , sin sin i r = constant ( 9.4 )",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s7": {
+    "sid": "s7",
+    "sentence": "This constant value is called the refractive index of the second medium with respect to the first .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s8": {
+    "sid": "s8",
+    "sentence": "Let us study about refractive index in some detail .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s9": {
+    "sid": "s9",
+    "sentence": "9.3.2",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s10": {
+    "sid": "s10",
+    "sentence": "The Refractive Index You have already studied that a ray of light that travels obliquely from one transparent medium into another will change its direction in the second medium .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s11": {
+    "sid": "s11",
+    "sentence": "The extent of the change in direction that takes place in a given pair of media may be expressed in terms of the refractive index , the “ constant ” appearing on the right hand side of Eq. ( 9.4 ) .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s12": {
+    "sid": "s12",
+    "sentence": "The refractive index can be linked to an important physical quantity , the relative speed of propagation of light in different media .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s13": {
+    "sid": "s13",
+    "sentence": "It turns out that light propagates with different speeds in different media .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s14": {
+    "sid": "s14",
+    "sentence": "Light travels fastest in vacuum with speed of 3×108 m s–1 .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s15": {
+    "sid": "s15",
+    "sentence": "In air , the speed of light is only marginally less , compared to that in vacuum .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s16": {
+    "sid": "s16",
+    "sentence": "It reduces considerably in glass or water .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s17": {
+    "sid": "s17",
+    "sentence": "The value of the refractive index for a given pair of media depends upon the speed of light in the two media , as given below .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s18": {
+    "sid": "s18",
+    "sentence": "Consider a ray of light travelling from medium 1 into medium 2 , as shown in Fig.9.11 .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s19": {
+    "sid": "s19",
+    "sentence": "Let v1 be the speed of light in medium 1 and v2 be the speed of light in medium 2 .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s20": {
+    "sid": "s20",
+    "sentence": "The refractive index of medium 2 with respect to medium 1 is given by the ratio of the speed of light in medium 1 and the speed of light in medium 2 .",
+    "page": 15,
+    "chunk_uuid": "a54f53dde5a341f8948d49d7a60954a7",
+    "source": "class10phy.pdf"
+  },
+  "s21": {
+    "sid": "s21",
+    "sentence": "Experiments show that refraction of light occurs according to certain laws .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s22": {
+    "sid": "s22",
+    "sentence": "Activity 9.10 Activity 9.10 Activity 9.10 Activity 9.10 Activity 9.10 n Fix a sheet of white paper on a drawing board using drawing pins . n Place a rectangular glass slab over the sheet in the middle . n Draw the outline of the slab with a pencil .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s23": {
+    "sid": "s23",
+    "sentence": "Let us name the outline as ABCD .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s24": {
+    "sid": "s24",
+    "sentence": "n Take four identical pins .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s25": {
+    "sid": "s25",
+    "sentence": "n Fix two pins , say E and F , vertically such that the line joining the pins is inclined to the edge AB .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s26": {
+    "sid": "s26",
+    "sentence": "n Look for the images of the pins E and F through the opposite edge .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s27": {
+    "sid": "s27",
+    "sentence": "Fix two other pins , say G and H , such that these pins and the images of E and F lie on a straight line .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s28": {
+    "sid": "s28",
+    "sentence": "n Remove the pins and the slab .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s29": {
+    "sid": "s29",
+    "sentence": "n Join the positions of tip of the pins E and F and produce the line up to AB .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s30": {
+    "sid": "s30",
+    "sentence": "Let EF meet AB at O .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s31": {
+    "sid": "s31",
+    "sentence": "Similarly , join the positions of tip of the pins G and H and produce it up to the edge CD .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s32": {
+    "sid": "s32",
+    "sentence": "Let HG meet CD at O ′ . n Join O and O ′ .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s33": {
+    "sid": "s33",
+    "sentence": "Also produce EF up to P , as shown by a dotted line in Fig .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s34": {
+    "sid": "s34",
+    "sentence": "9.10 .",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s35": {
+    "sid": "s35",
+    "sentence": "Figure 9.10 Figure 9.10 Figure 9.10 Figure 9.10 Figure 9.10 Refraction of light through a rectangular glass slab Reprint 2025-26",
+    "page": 14,
+    "chunk_uuid": "269c88fab73345169d18b481dbe44a39",
+    "source": "class10phy.pdf"
+  },
+  "s36": {
+    "sid": "s36",
+    "sentence": "Light – Reflection and Refraction 147 In this Activity , you will note , the light ray has changed its direction at points O and O ′ .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s37": {
+    "sid": "s37",
+    "sentence": "Note that both the points O and O ′ lie on surfaces separating two transparent media .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s38": {
+    "sid": "s38",
+    "sentence": "Draw a perpendicular NN ’ to AB at O and another perpendicular MM ′ to CD at O ′ .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s39": {
+    "sid": "s39",
+    "sentence": "The light ray at point O has entered from a rarer medium to a denser medium , that is , from air to glass .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s40": {
+    "sid": "s40",
+    "sentence": "Note that the light ray has bent towards the normal .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s41": {
+    "sid": "s41",
+    "sentence": "At O ′ , the light ray has entered from glass to air , that is , from a denser medium to a rarer medium .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s42": {
+    "sid": "s42",
+    "sentence": "The light here has bent away from the normal .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s43": {
+    "sid": "s43",
+    "sentence": "Compare the angle of incidence with the angle of refraction at both refracting surfaces AB and CD .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s44": {
+    "sid": "s44",
+    "sentence": "In Fig . 9.10 , a ray EO is obliquely incident on surface AB , called incident ray .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s45": {
+    "sid": "s45",
+    "sentence": "OO ′ is the refracted ray and O ′ H is the emergent ray .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s46": {
+    "sid": "s46",
+    "sentence": "You may observe that the emergent ray is parallel to the direction of the incident ray .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s47": {
+    "sid": "s47",
+    "sentence": "Why does it happen so ?",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s48": {
+    "sid": "s48",
+    "sentence": "The extent of bending of the ray of light at the opposite parallel faces AB ( air glass interface ) and CD ( glass air interface ) of the rectangular glass slab is equal and opposite .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s49": {
+    "sid": "s49",
+    "sentence": "This is why the ray emerges parallel to the incident ray .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s50": {
+    "sid": "s50",
+    "sentence": "However , the light ray is shifted sideward slightly .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s51": {
+    "sid": "s51",
+    "sentence": "What happens when a light ray is incident normally to the interface of two media ?",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s52": {
+    "sid": "s52",
+    "sentence": "Try and find out .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s53": {
+    "sid": "s53",
+    "sentence": "Now you are familiar with the refraction of light .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s54": {
+    "sid": "s54",
+    "sentence": "Refraction is due to change in the speed of light as it enters from one transparent medium to another .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s55": {
+    "sid": "s55",
+    "sentence": "Experiments show that refraction of light occurs according to certain laws .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s56": {
+    "sid": "s56",
+    "sentence": "Activity 9.10 Activity 9.10 Activity 9.10 Activity 9.10 Activity 9.10 n Fix a sheet of white paper on a drawing board using drawing pins . n Place a rectangular glass slab over the sheet in the middle . n Draw the outline of the slab with a pencil .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s57": {
+    "sid": "s57",
+    "sentence": "Let us name the outline as ABCD .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s58": {
+    "sid": "s58",
+    "sentence": "n Take four identical pins .",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  },
+  "s59": {
+    "sid": "s59",
+    "sentence": "n Fix two pins",
+    "page": 14,
+    "chunk_uuid": "de07b315a15641daa3c12f78e6b254f0",
+    "source": "class10phy.pdf"
+  }
+}

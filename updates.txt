@@ -1,0 +1,42 @@
+// Updates and things to check next time
+
+[Done] -> Questions like short and long notes in some particular no. words.
+It doesn't give the specified no. of words (it should use outside knowledge if not enough information present or expand tell the text)
+
+// Physics
+
+[Done]-> for the question "What are the laws of reflection?"
+the cell 3 section in secondary.py is not selecting the appropriate sentences because of which the highlight is wrong.
+But the notebook cell 3 is selecting the right sentences.
+
+[Done]-> Improving the output in cell 2 (For some questions its just pasting direct sentences from the book.)
+
+[Done] // how to handle question which might require both context from book and also general knowledge
+such as "Imagine you are a woman participating in the Civil Disobedience Movement. Explain
+what the experience meant to your life."
+
+[Done]// in history some ques the cell 4 seems to be cutting off a little too much content
+for some questions which are long, it should include more more related points from the book (incase and keywords are there)
+
+// in biology (tried)
+[Done] ->also handling mcqs (the way the cell 2 gives final response, and how the cell 3 selects content instead of only the ques where that mcq was asked)
+
+[Later]// reduce the no. of api calls right now its too much
+
+[Done]// cell 4 seems to be removing a little too many s_ids given by cell 3
+
+[Done]// adv vs disadv type of questions
+
+// while integrating using langgraph, ensure if not related to context , it should answer as don't know.
+// also we need to give option to go to next shortlist page using an arrow up and down like it works in general pdf highlights.
+so that for a long ques when there are highlights in more than one page, the user can easily find the highlighted sentences.
+
+
+// new upgrades
+
+-> ensure points like (i) (ii) are also highlighted
+-> make the logic work for all formulas etc (some have both numerator and denominator etc)
+
+/// latest 22-09-2025
+-> udpate cell 2 so that if any query asks for specific info only that is given, or else give in a normal not too much not too little info way.
+-> update cell 3 so that it doesn't include the unecessary stuff from cell 2 when specified.

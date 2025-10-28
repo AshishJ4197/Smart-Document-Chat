@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PDF Drawer Preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      overflow: hidden;
+    }
+
+    .main-app {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      transition: width 0.3s ease, transform 0.3s ease;
+    }
+
+    .main-app.shrunk {
+      width: 50%;
+      align-items: flex-start;
+      padding-left: 40px;
+    }
+
+    .main-app h2 {
+      margin-bottom: 20px;
+    }
+
+    .pdf-drawer {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 50%;
+      height: 100%;
+      background: #fff;
+      box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      z-index: 9999;
+      transition: right 0.3s ease;
+    }
+
+    .pdf-drawer.open {
+      right: 0;
+    }
+
+    .pdf-header {
+      padding: 10px 15px;
+      background: #343a40;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .pdf-header button {
+      background: none;
+      color: white;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .pdf-body {
+      flex-grow: 1;
+      overflow: hidden;
+    }
+
+    .pdf-body iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 8px 0;
+      cursor: pointer;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main App Area -->
+  <div class="main-app" id="mainApp">
+    <h2>🧠 Smart Document Chat</h2>
+    <button id="openPdfBtn">📂 Open Highlighted PDF</button>
+  </div>
+
+  <!-- PDF Drawer -->
+  <div class="pdf-drawer" id="pdfDrawer">
+    <div class="pdf-header">
+      <span>📄 PDF Preview</span>
+      <button id="closeBtn">✕</button>
+    </div>
+    <div class="pdf-body">
+      <iframe id="pdfFrame" src=""></iframe>
+    </div>
+  </div>
+
+  <script>
+    const openBtn = document.getElementById('openPdfBtn');
+    const drawer = document.getElementById('pdfDrawer');
+    const pdfFrame = document.getElementById('pdfFrame');
+    const closeBtn = document.getElementById('closeBtn');
+    const mainApp = document.getElementById('mainApp');
+
+    const blobUrl = 'highlighted_output.pdf#page=15';
+
+    openBtn.addEventListener('click', () => {
+    // Open drawer first
+    drawer.classList.add('open');
+    mainApp.classList.add('shrunk');
+
+    // Load PDF with scroll after drawer is open
+    setTimeout(() => {
+        pdfFrame.src = '';
+        pdfFrame.src = blobUrl; // 'highlighted_output.pdf#page=2'
+    }, 100); // Needs at least ~300ms for consistent scroll
+    });
+
+
+    closeBtn.addEventListener('click', () => {
+      drawer.classList.remove('open');
+      mainApp.classList.remove('shrunk');
+      pdfFrame.src = '';
+    });
+  </script>
+
+</body>
+</html>

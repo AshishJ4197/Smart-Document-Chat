@@ -1,0 +1,274 @@
+   Smart Document Chat - Session Summary
+   ======================================
+
+   🗓️ Date: 2025-07-22
+   🕒 Duration: Approx. 2 hours
+
+   Goal:
+   -----
+   Build an AI-powered document assistant that:
+   - Accepts a PDF file
+   - Highlights parts of the PDF used in AI responses
+   - Displays the PDF in a right-side drawer
+   - Uses real annotations (not overlays)
+   - Opens directly to the page with highlights
+
+   Components:
+   -----------
+   1. Python (PyMuPDF)
+      - Used to open, search, and highlight specific text
+      - Saves output as a new PDF with native annotations
+      - Highlights stored by matching exact text
+      - Optionally searches multiple lines like:
+      (i) and (ii) of Newton’s Laws on Page 2
+
+   2. Frontend (HTML + JavaScript)
+      - Drawer layout with main app on the left, PDF on right
+      - iframe shows PDF viewer
+      - Button opens drawer, triggers scroll to correct page
+      - Uses PDF.js for instant page navigation (not native viewer)
+      - Path example: pdfjs/web/viewer.html?file=highlighted_output.pdf#page=2
+
+   3. PDF.js
+      - Embedded Mozilla PDF.js viewer inside drawer
+      - Displays PyMuPDF-applied highlights natively
+      - Enables scrolling to page via #page=X
+      - Ensures rendering matches browser and supports real annotations
+
+   Workflow:
+   ---------
+   1. User uploads or uses preset PDF
+   2. Python highlights content using PyMuPDF
+   3. Highlighted PDF saved in frontend/pdfjs/web/
+   4. Frontend loads that file using PDF.js viewer in iframe
+   5. Page is auto-set via `#page=X`
+   6. UI is split-screen, chatbot on left, PDF on right
+
+   Learnings:
+   ----------
+   - Browser-native viewer is unreliable for smooth scrolling
+   - PDF.js is best for reliable, fast rendering and navigation
+   - PyMuPDF is ideal for real highlights
+   - Text overlays are bad for UX and accuracy
+   - Must store chunk metadata (page number, position) during embedding
+   - Auto-scroll works best via PDF.js + anchor hash
+
+   Next Steps:
+   -----------
+   - Store page and location metadata per chunk
+   - Highlight based on chunk match
+   - Auto-jump to page containing highlight
+   - Optional: multiple highlights across pages
+
+   📚 Project Summary: Class 10 Physics QA System with PDF Highlighting
+   ✅ PHASE 1: Frontend Evolution
+   Tech stack:
+
+   Migrated to Vite + React (from older bundler) for faster dev cycles
+
+   Planned integration of PDF.js for highlighting exact answer sentences later
+
+   Emphasis on token-level traceability for learning use case
+
+   ✅ PHASE 2: PDF Chunking and Vector Embeddings
+   📥 Loading the PDF
+   Used PyMuPDFLoader from LangChain to load pages from class10phy.pdf
+
+   Stored the page number in metadata
+
+   🧩 Chunking Approaches Explored
+   Method	Pros	Cons
+   RecursiveCharacterTextSplitter (✅ chosen)	Fast, easy	Can split mid-sentence
+   SentenceTransformersTokenTextSplitter	Semantic chunks	🟥 Very heavy (torch, transformers), crashed kernel
+   NLTKTextSplitter (🟡 planned)	Lighter semantic option	Requires nltk.download("punkt")
+
+   📌 Final decision: RecursiveCharacterTextSplitter (chunk_size=500, chunk_overlap=100) for now
+
+   🗂️ Metadata & Chunk Storage
+   Each chunk stored with:
+
+   uuid
+
+   chunk_id (page_x_chunk_y)
+
+   page number
+
+   text (actual content)
+
+   source ("class10phy.pdf")
+
+   📝 Saved to chunk_metadata.json for later use in UI and highlighting
+
+   🧠 FAISS Vector Embedding
+   Created vector store using FAISS.from_documents(split_docs, embedding_model)
+
+   Saved with:
+
+   vector_index/class_10_phy/index.faiss
+
+   Retrieval uses:
+
+   python
+   Copy
+   Edit
+   retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+   ✅ PHASE 3: Question Answering with LLM
+   Prompt Template:
+   LLM is told to only answer using retrieved content
+
+   If not found, reply: "I don't know"
+
+   python
+   Copy
+   Edit
+   prompt = """You are given the query from the user, along with the content extracted from the vector embeddings related to the query.
+   Using this, give the answer to the query.
+   ...
+   If the content doesn't include the answer, say: 'I don't know'."""
+   Output:
+   Retrieved chunks are printed with:
+
+   chunk_id
+
+   page
+
+   text
+
+   Answer is generated and printed
+
+   ✅ PHASE 4: Planned Improvements (for Highlighting & UX)
+   🧠 Plan for Semantic Sentence Highlighting (Future Phase)
+   Store Sentence-Level Metadata
+
+   Instead of big chunks, store each sentence as a document (with UUID + page)
+
+   Map Chunk → Sentences
+
+   While embedding chunks, keep track of which sentences are in each chunk
+
+   LLM Justification (Post Answer)
+   After the answer is generated, run another LLM call:
+
+   “Which of the following sentences support your answer?”
+
+   Map Justified Sentences → PDF
+
+   Use sentence UUIDs to locate exact text and page → highlight in PDF.js frontend
+
+   ✅ Final Setup Status
+   Component	Status
+   PDF loading	✅ Done
+   Chunking & metadata	✅ Done
+   Embedding & FAISS storage	✅ Done
+   LLM query + output mapping	✅ Done
+   Sentence-level highlighting	⏳ Planned
+   Frontend PDF UI (React + PDF.js)	🟡 Being integrated
+
+   🛠️ Tools Used
+   langchain, faiss-cpu, pymupdf
+
+   (Skipped for now) sentence-transformers due to bloat/crashes
+
+   uuid, json, ChatPromptTemplate, LLM chains
+
+   🧭 Next Steps (Suggested)
+   ⬜ Switch to NLTKTextSplitter for sentence-aware splitting (lightweight)
+
+   ⬜ Store sentence-level metadata alongside chunking
+
+   ⬜ Implement second-pass LLM call: “Which sentence(s) support your answer?”
+
+   ⬜ Highlight exact sentence in PDF (via fitz or pdfjs)
+
+   ⬜ UI: Scroll to answer, color-code sentences
+
+   If you paste this summary into any future ChatGPT thread, you can just say:
+
+   "Here's our previous setup — continue from here."
+
+   🗓️ Status Date: July 29, 2025
+   📚 Use Case: Interactive educational QA system for Class 10 Physics using a textbook PDF, with traceable sentence-level justifications and real PDF highlights
+
+   ✅ What Has Been Done
+   1️⃣ PDF Chunking & FAISS Vector Embedding (First LLM Pass)
+   PDF loaded via PyMuPDFLoader
+
+   Chunked using SpacyTextSplitter (not sentence-level)
+   → chunk_size=1000, chunk_overlap=200
+
+   Each chunk assigned a UUID + page number
+
+   Stored in FAISS vector index using embedding_model
+
+   Relevant metadata stored in:
+
+   uuid_lookup.json → maps chunk UUIDs to page/content
+
+   sentence_metadata.json → optional dump of chunk-level content
+
+   2️⃣ Question Answering (First LLM Call)
+   User query passed to retriever (k=3)
+
+   Retrieved chunks passed to LLM in prompt to generate answer
+
+   If answer can't be found → LLM returns "I don't know"
+
+   Retrieved chunks printed using uuid_lookup.json for inspection
+
+   3️⃣ Sentence-Level Justification (Second LLM Pass)
+   Retrieved chunks re-tokenized using spaCy into individual sentences
+
+   Each sentence assigned a short human-readable ID (s1, s2, …)
+
+   Metadata for each sentence includes:
+
+   sid, sentence, page, chunk_uuid, source
+
+   Sentences saved to sentence_lookup.json
+
+   🧠 Second LLM Prompt:
+
+   Sentences + answer + query passed to another LLM call
+
+   LLM returns only list of ["s5", "s6", ...] (supporting sentence IDs)
+
+   Those sentences are printed with page numbers → used for highlighting in PDF
+
+   4️⃣ File Structure (Key Artifacts)
+   File	Description	Used?
+   sentence_lookup.json	Sentence-level metadata for justification	✅
+   sentence_metadata.json	Chunk-level metadata (for debug only)	🟡
+   uuid_lookup.json	Used to show full retrieved chunks	✅
+   vector_index/	FAISS store for semantic retrieval	✅
+   frontend/pdfjs/	To display annotated PDF (integrated soon)	🟡
+
+   🚧 What We Plan to Try Next
+   🔁 1. Sentence Splitting Alternatives
+   🔜 Compare spaCy with Syntok for sentence splitting speed & accuracy
+
+   See which gives more consistent IDs and better LLM alignment
+
+   🧠 2. Improve Highlight Accuracy
+   Fit exact sid → sentence back into original PDF (via PyMuPDF or fitz)
+
+   Add bounding box highlights or scroll-to-page using #page=X
+
+   🧾 3. UI Integration (React + PDF.js)
+   Right-side drawer working
+
+   Finalize scroll-to-page using highlight match
+
+   Color-code supporting sentences (from second LLM pass)
+
+   🛠️ 4. Optional Improvements
+   Create config to enable/disable saving large metadata files
+
+   Batch sentence embeddings to optimize speed
+
+   Extend to multi-PDF support by adding source switching
+
+   🔑 How to Resume
+   When continuing, just say:
+
+   “Here's my last setup — continue from here.”
+   (Paste this summary again for reference if needed)

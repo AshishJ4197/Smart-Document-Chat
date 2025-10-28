@@ -1,0 +1,44 @@
+[
+  {
+    "sid": "s2",
+    "page": 15,
+    "pieces": [
+      "( i ) The incident ray , the refracted ray and the normal to the interface of two transparent media at the point of incidence , all lie in the same plane ."
+    ]
+  },
+  {
+    "sid": "s3",
+    "page": 15,
+    "pieces": [
+      "( ii ) The ratio of sine of angle of incidence to the sine of angle of refraction is a constant , for the light of a given colour and for the given pair of media ."
+    ]
+  },
+  {
+    "sid": "s7",
+    "page": 15,
+    "pieces": [
+      "This constant value is called the refractive index of the second medium with respect to the first ."
+    ]
+  },
+  {
+    "sid": "s20",
+    "page": 15,
+    "pieces": [
+      "The refractive index of medium 2 with respect to medium 1 is given by the ratio of the speed of light in medium 1 and the speed of light in medium 2 ."
+    ]
+  },
+  {
+    "sid": "s54",
+    "page": 14,
+    "pieces": [
+      "Refraction is due to change in the speed of light as it enters from one transparent medium to another ."
+    ]
+  },
+  {
+    "sid": "s6",
+    "page": 15,
+    "pieces": [
+      "If i is the angle of incidence and r is the angle of refraction , then , sin sin i r = constant ( 9.4 )"
+    ]
+  }
+]

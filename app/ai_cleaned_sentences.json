@@ -1,0 +1,51 @@
+[
+  {
+    "sid": "s1",
+    "page": 15,
+    "pieces": [
+      "The following are the laws of refraction of light ."
+    ]
+  },
+  {
+    "sid": "s2",
+    "page": 15,
+    "pieces": [
+      "( i ) The incident ray , the refracted ray and the normal to the interface of two transparent media at the point of incidence , all lie in the same plane ."
+    ]
+  },
+  {
+    "sid": "s3",
+    "page": 15,
+    "pieces": [
+      "( ii ) The ratio of sine of angle of incidence to the sine of angle of refraction is a constant , for the light of a given colour and for the given pair of media ."
+    ]
+  },
+  {
+    "sid": "s4",
+    "page": 15,
+    "pieces": [
+      "This law is also known as Snell ’s law of refraction ."
+    ]
+  },
+  {
+    "sid": "s5",
+    "page": 15,
+    "pieces": [
+      "( This is true for angle 0 < i < 90o )"
+    ]
+  },
+  {
+    "sid": "s6",
+    "page": 15,
+    "pieces": [
+      "If i is the angle of incidence and r is the angle of refraction , then , sin sin i r = constant ( 9.4 )"
+    ]
+  },
+  {
+    "sid": "s7",
+    "page": 15,
+    "pieces": [
+      "This constant value is called the refractive index of the second medium with respect to the first ."
+    ]
+  }
+]

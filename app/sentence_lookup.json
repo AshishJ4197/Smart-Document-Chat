@@ -1,0 +1,359 @@
+{
+  "s1": {
+    "sid": "s1",
+    "sentence": "Science 148 The following are the laws of refraction of light .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s2": {
+    "sid": "s2",
+    "sentence": "( i ) The incident ray , the refracted ray and the normal to the interface of two transparent media at the point of incidence , all lie in the same plane .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s3": {
+    "sid": "s3",
+    "sentence": "( ii ) The ratio of sine of angle of incidence to the sine of angle of refraction is a constant , for the light of a given colour and for the given pair of media .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s4": {
+    "sid": "s4",
+    "sentence": "This law is also known as Snell ’s law of refraction .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s5": {
+    "sid": "s5",
+    "sentence": "( This is true for angle 0 < i < 90o )",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s6": {
+    "sid": "s6",
+    "sentence": "If i is the angle of incidence and r is the angle of refraction , then , sin sin i r = constant ( 9.4 )",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s7": {
+    "sid": "s7",
+    "sentence": "This constant value is called the refractive index of the second medium with respect to the first .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s8": {
+    "sid": "s8",
+    "sentence": "Let us study about refractive index in some detail .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s9": {
+    "sid": "s9",
+    "sentence": "9.3.2",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s10": {
+    "sid": "s10",
+    "sentence": "The Refractive Index You have already studied that a ray of light that travels obliquely from one transparent medium into another will change its direction in the second medium .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s11": {
+    "sid": "s11",
+    "sentence": "The extent of the change in direction that takes place in a given pair of media may be expressed in terms of the refractive index , the “ constant ” appearing on the right hand side of Eq. ( 9.4 ) .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s12": {
+    "sid": "s12",
+    "sentence": "The refractive index can be linked to an important physical quantity , the relative speed of propagation of light in different media .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s13": {
+    "sid": "s13",
+    "sentence": "It turns out that light propagates with different speeds in different media .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s14": {
+    "sid": "s14",
+    "sentence": "Light travels fastest in vacuum with speed of 3×108 m s–1 .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s15": {
+    "sid": "s15",
+    "sentence": "In air , the speed of light is only marginally less , compared to that in vacuum .",
+    "page": 15,
+    "chunk_uuid": "7e607cf5-93cf-45bb-a56e-9e5a64db8a2f",
+    "source": "geography.pdf"
+  },
+  "s16": {
+    "sid": "s16",
+    "sentence": "This is why the ray emerges parallel to the incident ray .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s17": {
+    "sid": "s17",
+    "sentence": "However , the light ray is shifted sideward slightly .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s18": {
+    "sid": "s18",
+    "sentence": "What happens when a light ray is incident normally to the interface of two media ?",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s19": {
+    "sid": "s19",
+    "sentence": "Try and find out .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s20": {
+    "sid": "s20",
+    "sentence": "Now you are familiar with the refraction of light .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s21": {
+    "sid": "s21",
+    "sentence": "Refraction is due to change in the speed of light as it enters from one transparent medium to another .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s22": {
+    "sid": "s22",
+    "sentence": "Experiments show that refraction of light occurs according to certain laws .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s23": {
+    "sid": "s23",
+    "sentence": "Activity 9.10 Activity 9.10 Activity 9.10 Activity 9.10 Activity 9.10 n Fix a sheet of white paper on a drawing board using drawing pins . n Place a rectangular glass slab over the sheet in the middle . n Draw the outline of the slab with a pencil .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s24": {
+    "sid": "s24",
+    "sentence": "Let us name the outline as ABCD .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s25": {
+    "sid": "s25",
+    "sentence": "n Take four identical pins .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s26": {
+    "sid": "s26",
+    "sentence": "n Fix two pins , say E and F , vertically such that the line joining the pins is inclined to the edge AB .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s27": {
+    "sid": "s27",
+    "sentence": "n Look for the images of the pins E and F through the opposite edge .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s28": {
+    "sid": "s28",
+    "sentence": "Fix two other pins , say G and H , such that these pins and the images of E and F lie on a straight line .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s29": {
+    "sid": "s29",
+    "sentence": "n Remove the pins and the slab .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s30": {
+    "sid": "s30",
+    "sentence": "n Join the positions of tip of the pins E and F and produce the line up to AB .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s31": {
+    "sid": "s31",
+    "sentence": "Let EF meet AB at O .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s32": {
+    "sid": "s32",
+    "sentence": "Similarly , join the positions of tip of the pins G and H and produce it up to the edge CD .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s33": {
+    "sid": "s33",
+    "sentence": "Let HG meet CD at O ′ . n Join O and O ′ .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s34": {
+    "sid": "s34",
+    "sentence": "Also produce EF up to P , as shown by a dotted line in Fig .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s35": {
+    "sid": "s35",
+    "sentence": "9.10 .",
+    "page": 14,
+    "chunk_uuid": "b0e8c500-d3bc-45c2-b793-b78177dd27d5",
+    "source": "geography.pdf"
+  },
+  "s36": {
+    "sid": "s36",
+    "sentence": "Science 134 Light – Reflection and Refraction 9 CHAPTER W e see a variety of objects in the world around us .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s37": {
+    "sid": "s37",
+    "sentence": "However , we are unable to see anything in a dark room .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s38": {
+    "sid": "s38",
+    "sentence": "On lighting up the room , things become visible .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s39": {
+    "sid": "s39",
+    "sentence": "What makes things visible ?",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s40": {
+    "sid": "s40",
+    "sentence": "During the day , the sunlight helps us to see objects .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s41": {
+    "sid": "s41",
+    "sentence": "An object reflects light that falls on it .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s42": {
+    "sid": "s42",
+    "sentence": "This reflected light , when received by our eyes , enables us to see things .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s43": {
+    "sid": "s43",
+    "sentence": "We are able to see through a transparent medium as light is transmitted through it .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s44": {
+    "sid": "s44",
+    "sentence": "There are a number of common wonderful phenomena associated with light such as image formation by mirrors , the twinkling of stars , the beautiful colours of a rainbow , bending of light by a medium and so on .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s45": {
+    "sid": "s45",
+    "sentence": "A study of the properties of light helps us to explore them .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s46": {
+    "sid": "s46",
+    "sentence": "By observing the common optical phenomena around us , we may conclude that light seems to travel in straight lines .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s47": {
+    "sid": "s47",
+    "sentence": "The fact that a small source of light casts a sharp shadow of an opaque object points to this straight line path of light , usually indicated as a ray of light .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s48": {
+    "sid": "s48",
+    "sentence": "More to Know !",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s49": {
+    "sid": "s49",
+    "sentence": "If an opaque object on the path of light becomes very small , light has a tendency to bend around it and not walk in a straight line – an effect known as the diffraction of light .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s50": {
+    "sid": "s50",
+    "sentence": "Then the straight line treatment of optics using rays fails .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  },
+  "s51": {
+    "sid": "s51",
+    "sentence": "To explain phenomena such as diffraction , light is thought of as a wave , the details of which you will study in higher classes .",
+    "page": 1,
+    "chunk_uuid": "7bac63eb-81f9-4078-9f79-df6feba9ec05",
+    "source": "geography.pdf"
+  }
+}
